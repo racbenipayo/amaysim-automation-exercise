@@ -16,3 +16,4 @@ ${SendReferralEmailButton}  id:c
 ${TwitterIcon}  id:q
 ${ThankYouMessage}  id:w
 ${WidgetScreen}  id:Widget-Screen
+${FacebookLink}  //div[@class="facebook-link"]

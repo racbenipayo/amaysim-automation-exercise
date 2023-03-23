@@ -12,4 +12,5 @@ Send Email
   input text  ${EmailReferralTextBox}  ${ReferralEmail}
   input text  ${PersonalizedMessageTextBox}  ${PersonalizedMessage}
   click element  ${SendReferralEmailButton}
+  wait until element is visible  ${ThankYouMessage}  60
   

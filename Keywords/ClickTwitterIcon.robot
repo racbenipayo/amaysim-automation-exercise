@@ -9,6 +9,8 @@ Resource  ../TestData/Values.robot
 
 *** Keywords ***
 Click Twitter Icon
+  Execute JavaScript  window.scrollBy(900, 900);
+  sleep  2s
   click element  ${TwitterIcon}
-  wait until element is visible  ${ThankYouMessage}
+  wait until element is visible  ${ThankYouMessage}  60
   
