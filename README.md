@@ -1,0 +1,1 @@
+# amaysim-automation-exercise
